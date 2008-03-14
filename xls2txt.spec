@@ -6,13 +6,14 @@ Version:	0.11
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://wizard.ae.krakow.pl/~jb/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://wizard.ae.krakow.pl/~jb/xls2txt/%{name}-%{version}.tar.gz
 # Source0-md5:	ef749cf035b361510bad0dab33ed8266
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This utility prints Excel spreadsheet (XLS, XLW) as a plain text in tab separated form.
+This utility prints Excel spreadsheet (XLS, XLW) as a plain text in
+tab separated form.
 
 %prep
 %setup -q
