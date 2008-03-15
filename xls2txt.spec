@@ -1,5 +1,3 @@
-%define no_install_post_compress_docs 1
-
 Summary:	Prints Excel spreadsheet (XLS, XLW) as a plain text
 Name:		xls2txt
 Version:	0.11
@@ -27,7 +25,6 @@ tab separated form.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
-
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 
 %clean
