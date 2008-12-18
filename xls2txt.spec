@@ -20,7 +20,8 @@ tab separated form.
 %{__make} \
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -fomit-frame-pointer" \
-	LDFLAGS="%{rpmldflags}"
+	LDFLAGS="%{rpmldflags}" \
+	LDLIBS="-lm"
 
 %install
 rm -rf $RPM_BUILD_ROOT
