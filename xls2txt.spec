@@ -1,11 +1,11 @@
 Summary:	Prints Excel spreadsheet (XLS, XLW) as a plain text
 Name:		xls2txt
-Version:	0.12
+Version:	0.13
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://wizard.ae.krakow.pl/~jb/xls2txt/%{name}-%{version}.tar.gz
-# Source0-md5:	5de31e8d1dc9f483f21f87562a49df5b
+# Source0-md5:	5bb2ab2ab8dac7bfb34e2b536b399e12
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
