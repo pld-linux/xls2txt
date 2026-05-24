@@ -2,7 +2,7 @@ Summary:	Print Excel spreadsheet (XLS, XLW) as a plain text
 Summary(pl.UTF-8):	Wypisywanie arkuszy Excela (XLS, XLW) w postaci czystego tekstu
 Name:		xls2txt
 Version:	0.15
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://wizard.ae.krakow.pl/~jb/xls2txt/%{name}-%{version}.tar.gz
